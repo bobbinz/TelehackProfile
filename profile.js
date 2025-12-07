@@ -12,9 +12,9 @@ var objElement;
 objElement = document.createElement('div');
 objElement.id = "static";
 objElement.className = 'static';
-document.getElementsByTagName("pre")[0].appendChild(objElement);
+document.getElementsByTagName("body")[0].appendChild(objElement);
 
 objElement = document.createElement('div');
 objElement.id = "scan";
 objElement.className = 'scan';
-document.getElementsByTagName("pre")[0].appendChild(objElement);
+document.getElementsByTagName("body")[0].appendChild(objElement);
