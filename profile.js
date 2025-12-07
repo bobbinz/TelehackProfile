@@ -1,4 +1,4 @@
-var PATH_CSSFile = "smpte.css";
+var PATH_CSSFile = "https://bobbinz.github.io/TelehackProfile/smpte.css";
 
 var objLinkElement = document.createElement("link");
 objLinkElement.setAttribute("rel", "stylesheet");
