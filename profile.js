@@ -6,3 +6,9 @@ objLinkElement.setAttribute("type", "text/css");
 objLinkElement.setAttribute("href", PATH_CSSFile);
 
 document.getElementsByTagName("head")[0].appendChild(objLinkElement);
+
+objElement = document.createElement('div');
+objElement.id = "scan";
+
+objElement = document.createElement('div');
+objElement.id = "static";
