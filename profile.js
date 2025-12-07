@@ -10,9 +10,9 @@ document.getElementsByTagName("head")[0].appendChild(objLinkElement);
 var objElement;
 
 objElement = document.createElement('div');
-objElement.id = "scan";
+objElement.id = "static";
 document.getElementsByTagName("pre")[0].appendChild(objElement);
 
 objElement = document.createElement('div');
-objElement.id = "static";
+objElement.id = "scan";
 document.getElementsByTagName("pre")[0].appendChild(objElement);
