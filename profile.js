@@ -11,8 +11,8 @@ var objElement;
 
 objElement = document.createElement('div');
 objElement.id = "scan";
-document.getElementsByTagName("body")[0].appendChild(objElement);
+document.getElementsByTagName("pre")[0].appendChild(objElement);
 
 objElement = document.createElement('div');
 objElement.id = "static";
-document.getElementsByTagName("body")[0].appendChild(objElement);
+document.getElementsByTagName("pre")[0].appendChild(objElement);
