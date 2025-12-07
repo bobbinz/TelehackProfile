@@ -7,6 +7,8 @@ objLinkElement.setAttribute("href", PATH_CSSFile);
 
 document.getElementsByTagName("head")[0].appendChild(objLinkElement);
 
+var objElement;
+
 objElement = document.createElement('div');
 objElement.id = "scan";
 document.getElementsByTagName("body")[0].appendChild(objElement);
