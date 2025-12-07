@@ -9,6 +9,8 @@ document.getElementsByTagName("head")[0].appendChild(objLinkElement);
 
 objElement = document.createElement('div');
 objElement.id = "scan";
+document.getElementsByTagName("body")[0].appendChild(objElement);
 
 objElement = document.createElement('div');
 objElement.id = "static";
+document.getElementsByTagName("body")[0].appendChild(objElement);
